@@ -1,0 +1,144 @@
+/* Add a horizontal scrolling container */
+.horizontal-scroll {
+    display: flex; /* Flexbox layout for horizontal alignment */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px; /* Space between cards */
+    padding-bottom: 10px; /* Add padding to avoid scroll bar overlap */
+    scrollbar-width: thin; /* Optional: Customize scrollbar width */
+}
+  
+.horizontal-scroll::-webkit-scrollbar {
+    height: 8px; /* Customize scrollbar height */
+}
+  
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #444; /* Customize scrollbar color */
+    border-radius: 5px;
+}
+  
+  .horizontal-scroll::-webkit-scrollbar-track {
+    background: #222; /* Background of the scrollbar track */
+}
+
+  /* EarnPage.css */
+.earn-page {
+    background-color: #000; /* Black background */
+    color: #fff;
+    padding: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+  
+  .earn-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .earn-points {
+    color: #f39c12; /* Yellow color for points */
+  }
+  
+
+  
+  .earn-card, .weekly-card {
+    min-width: 250px; /* Set fixed width for horizontal cards */
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+  }
+  
+  .earn-card:nth-child(1) {
+    background-color: #b0b0b0; /* Gray card */
+    
+  }
+  
+  .earn-card:nth-child(2) {
+    background-color: #d2b48c; /* Beige card */
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-bonus {
+    font-size: 1.2rem;
+    color: #f39c12;
+    margin-top: 10px;
+    margin-left: -121px;
+  }
+  
+  .earn-card-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px;
+    width: 80px;
+    height: 40px auto;
+    cursor: pointer;
+    margin-top: 8%;
+    margin-right: 59%;
+  }
+  
+  .earn-card-button:hover {
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .weekly-card {
+    background-color: #222; /* Darker card */
+  }
+  
+  .weekly-content {
+    text-align: center;
+  }
+  
+  .weekly-bonus {
+    color: #b0b0b0;
+    margin-left: -115px;
+    margin-top: -10px;
+  }
+
+  .card-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px;
+    width: 80px;
+    height: 40px auto;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-right: 59%;
+  }
+  
+  .card-button:hover {
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+
+  .card-button-social {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px;
+    width: 80px;
+    height: 40px auto;
+    cursor: pointer;
+    margin-top: 7%;
+    margin-right: 58%;
+  }
+
+  .card-button-social:hover {
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+  
+  
