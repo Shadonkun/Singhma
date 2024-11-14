@@ -1,0 +1,9 @@
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <width>: Use a value from 62 to 125*/
+
+.archivo {
+  font-family: "Archivo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
