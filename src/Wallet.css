@@ -1,0 +1,133 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'archivo';
+  }
+  
+body {
+    font-family: archivo, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    height: 800px;
+}
+  
+.app-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    height: 200%;
+}
+  
+.header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+  
+.connect-wallet {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 450;
+}
+  
+.points-section {
+    margin-top: 80px;
+    text-align: left;
+}
+  
+.points-section h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+  
+.points-balance {
+    float: right;
+    background: #333333;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    
+}
+  
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+  
+.tab {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+.tab.active {
+    background-color: #555555;
+}
+  
+.card-earn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.card-point {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+  
+.card-content {
+    display: flex;
+    align-items: center;
+}
+  
+.icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+  
+.card-text p {
+    margin: 0;
+    font-size: 1rem;
+}
+  
+.arrow {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+  
+.status-button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 300;
+}
+  
